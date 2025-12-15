@@ -1,0 +1,56 @@
+[
+ {
+  "InstFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/top.v",
+  "InstLine" : 4,
+  "InstName" : "top",
+  "ModuleFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/top.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/top.v",
+    "InstLine" : 53,
+    "InstName" : "u_rx",
+    "ModuleFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/UART_data_rx.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "uart_data_rx",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/UART_data_rx.v",
+      "InstLine" : 40,
+      "InstName" : "uart_byte_rx",
+      "ModuleFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/UART_byte_rx.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "uart_byte_rx"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/top.v",
+    "InstLine" : 67,
+    "InstName" : "u_dec",
+    "ModuleFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/decoder.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "convolutional_decoder"
+   },
+   {
+    "InstFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/top.v",
+    "InstLine" : 175,
+    "InstName" : "u_tx",
+    "ModuleFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/UART_data_tx.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "uart_data_tx",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/UART_data_tx.v",
+      "InstLine" : 40,
+      "InstName" : "uart_byte_tx",
+      "ModuleFile" : "E:/project/conv_fpga_side/conv_fpga_side/src/UART_byte_tx.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "uart_byte_tx"
+     }
+    ]
+   }
+  ]
+ }
+]

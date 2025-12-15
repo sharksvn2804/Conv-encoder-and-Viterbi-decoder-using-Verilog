@@ -1,0 +1,56 @@
+[
+ {
+  "InstFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/top.v",
+  "InstLine" : 4,
+  "InstName" : "top",
+  "ModuleFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/top.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/top.v",
+    "InstLine" : 38,
+    "InstName" : "u_rx",
+    "ModuleFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_data_rx.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "uart_data_rx",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_data_rx.v",
+      "InstLine" : 40,
+      "InstName" : "uart_byte_rx",
+      "ModuleFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_byte_rx.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "uart_byte_rx"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/top.v",
+    "InstLine" : 52,
+    "InstName" : "u_conv",
+    "ModuleFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/conv.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "convolutional_encoder"
+   },
+   {
+    "InstFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/top.v",
+    "InstLine" : 108,
+    "InstName" : "u_tx",
+    "ModuleFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_data_tx.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "uart_data_tx",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_data_tx.v",
+      "InstLine" : 40,
+      "InstName" : "uart_byte_tx",
+      "ModuleFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_byte_tx.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "uart_byte_tx"
+     }
+    ]
+   }
+  ]
+ }
+]

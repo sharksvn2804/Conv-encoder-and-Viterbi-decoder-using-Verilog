@@ -1,0 +1,18 @@
+-d E:\Convolutional code + Viterbi\duphong\conv_fpga_side\impl\gwsynthesis\conv_fpga_side.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst E:\Convolutional code + Viterbi\duphong\conv_fpga_side\src\conv_fpga_side.cst
+-cfg E:\Convolutional code + Viterbi\duphong\conv_fpga_side\impl\pnr\device.cfg
+-sdc E:\Convolutional code + Viterbi\duphong\conv_fpga_side\src\conv_fpga_side.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="24" Lut="10" T_Register="1516(24)" T_Alu="152(0)" T_Lut="1457(10)">
+ <SubModule name="u_rx" Register="89" Lut="81" T_Register="160(89)" T_Lut="201(81)">
+  <SubModule name="uart_byte_rx" Register="71" Lut="120" T_Register="71(71)" T_Lut="120(120)"/>
+ </SubModule>
+ <SubModule name="u_dec" Register="1267" Alu="152" Lut="1162" T_Register="1267(1267)" T_Alu="152(152)" T_Lut="1162(1162)"/>
+ <SubModule name="u_tx" Register="33" Lut="35" T_Register="65(33)" T_Lut="84(35)">
+  <SubModule name="uart_byte_tx" Register="32" Lut="49" T_Register="32(32)" T_Lut="49(49)"/>
+ </SubModule>
+</Module>

@@ -1,0 +1,37 @@
+{
+ "Device" : "GW2A-18C",
+ "Files" : [
+  {
+   "Path" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_byte_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_byte_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_data_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/UART_data_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/conv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/Convolutional code + Viterbi/duphong/conv_fpga_side/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
